@@ -1,14 +1,14 @@
 # consulta HTML
 
-1.body
+1.body :**Al contrario que la etiqueta de metadatos <head>, todo lo que quieras mostrar en la página web debe ir recogido dentro de las etiquetas de apertura y cierre de body. Este contenido será el que se muestre en la web.**
 
-2.htm1
+2.htm1:
 
-3.div
+3.div :
 
-4.head
+4.head :**Representa una colección de metadatos acerca del documento, incluyendo enlaces a, o definiciones de, scripts y hojas de estilo.**
 
-5.link
+5.link :**Se usa para enlazar recursos externos al documento HTML. El ejemplo más común son las hojas de estilos CSS.**
 
 6.main
 
@@ -138,31 +138,31 @@ al ser compilado, la función se inserta como una copia en el mismo código fuen
 Es una combinación entre los dos tipos de elementos mencionados anteriormente (block e inline), los elementos con el valor inline-block admiten dimensiones pero todavía son elementos de línea, es decir estarán colocados uno al lado de otro.
 
 # eventos de javascript
-*onblur*
+*onblur*:Un elemento pierde el foco	<button>, <input>, <label>, <select>, <textarea>, <body>
 
-*onchange*
+*onchange*:Un elemento ha sido modificado	<input>, <select>, <textarea>
 
-*onclick*
+*onclick*:Pulsar y soltar el ratón,Todos los elementos
 
-*ondblclick*
+*ondblclick*:Pulsar dos veces seguidas con el ratón	,Todos los elementos
 
-*onfocus*
+*onfocus*:Un elemento obtiene el foco	<button>, <input>, <label>, <select>, <textarea>, <body>
 
-*onkeydown*
+*onkeydown*:Pulsar una tecla y no soltarla	Elementos de formulario y <body>
 
-*onkeypress*
+*onkeypress*:Pulsar una tecla	Elementos de formulario y <body>
 
-*onkeyup*
+*onkeyup*:Soltar una tecla pulsada	Elementos de formulario y <body>
 
-*onload*
+*onload*:Página cargada completamente	<body>
 
-*onmousedown*
+*onmousedown*:pulsar un botón del ratón y no soltarlo,	Todos los elementos
 
-*onunload*
+*onunload*:Se abandona la página, por ejemplo al cerrar el navegador	<body>
 
-*onsubmit*
+*onsubmit*: Enviar el formulario	<form>
 
-*onselect* :	Seleccionar un texto	<input>, <textarea>
+*onselect* :Seleccionar un texto	<input>, <textarea>
 
 *onresize* :Inicializar el formulario	<form>
 
