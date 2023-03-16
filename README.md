@@ -135,10 +135,36 @@ cuando escribimos el nombre de una función en un programa, por así decirlo "ll
 al ser compilado, la función se inserta como una copia en el mismo código fuente, en vez de llamar a la función.
 
 # inline block
+Es una combinación entre los dos tipos de elementos mencionados anteriormente (block e inline), los elementos con el valor inline-block admiten dimensiones pero todavía son elementos de línea, es decir estarán colocados uno al lado de otro.
 
+# eventos de javascript
+*onblur*
 
+*onchange*
 
+*onclick*
 
+*ondblclick*
+
+*onfocus*
+
+*onkeydown*
+
+*onkeypress*
+
+*onkeyup*
+
+*onload*
+
+*onmousedown*
+
+*onunload*
+
+*onsubmit*
+
+*onselect* :	Seleccionar un texto	<input>, <textarea>
+
+*onresize* :Inicializar el formulario	<form>
 
 
 
