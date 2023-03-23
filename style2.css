@@ -101,3 +101,8 @@ nav{
     outline: none;
     background-color: rgb(243, 188, 236);
    }
+
+   #modelo{
+    display: flex;
+    flex-direction: column;
+   }

@@ -1,17 +1,19 @@
-let nombre,correo,mensaje;
-let formulario = document.getElementById('form') 
 
-Formulario.addEventListener('submit', (e)=>{
+
+let nombre, correo, mensaje;
+let formulario = document.getElementById('form');
+
+formulario.addEventListener('submit', (e)=>{
     e.preventDefault()
-    leerDatos()
+    LeerData()
 })
 
-function leerDatos(){
-    nombre = document.getElementById('nombre').value
-    correo = document.getElementById('correo').value
-    mensaje = document.getElementById('textarea').value
-    validarData(nombre,correo,mensaje)
-    guardarlocalstorage(nombre,correo,mensaje)
+
+function LeerData() {
+    nombre = document.getElementById('nombre').value;
+    correo = document.getElementById('correo').value;
+    mensaje = document.querySelector('#textarea')
+ console.log(nombre)
 }
 
 function validarData(nombre,correo,mensaje) {
